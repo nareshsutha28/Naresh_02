@@ -1,37 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!DOCTYPE html> -->
+<html >
 <head>
     <title>Home page</title>
 </head>
-<body>
+            <script src="validate.js">
+                
+                // console.log(fname)
+                
+            </script>
+<body  style="background-color: aquamarine">
+<div name="container" style="display:flex">
 
-    <h1>Registration Form</h1>
-
-
+    
+    
     <form name="rform" action="#" >
+        <h1>Registration Form</h1>
         <table cellspace=5 cellpadding="7">
             <tr>
                 <td>First Name:</td>
-                <td><input type="text" name="fname" required></td>
-                </tr>
+                <td><input type="text" name="fname" onblur="fname_val();"></td>
+                <td><span id="fname"></span>
+                </td>
+            </tr>
             <tr>
                 <td>Last Name:</td>
-                <td><input type="text" name="lname" required></td>
-        
+                <td><input type="text" name="sname"  onblur="sname_val();" ></td>
+                <td><span id="sname"></span>
+                </td>
             </tr>
-
+            
             <tr>
                 <td>Email:</td>
-                <td><input type="email" name="email" required></td>
-                
+                <td><input type="text" name="email" onblur="email_val();" ></td>
+                <td><span id="email"></span>
+                </td>
             </tr>
             
             <tr>
                 <td>Mobile:</td>
-                <td><input type="text" name="mobile"></td>
-                
+                <td><input type="text"  name="mobile" onblur="mobile_val();"></td>
+                <td><span id="mobile"></span>
+                </td>
+            </tr>
+ 
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"  name="password" onblur="password_val();"></td>
+                <td><span id="password"></span>
+                </td>
             </tr>
 
+            <tr>
+                <td>confirm Password:</td>
+                <td><input type="password"  name="cpassword" onblur="cpassword_val();"></td>
+                <td><span id="cpassword"></span>
+                </td>
+            </tr>
+ 
+            
             <tr>
                 <td>Address:</td>
                 <td><textarea name="address"  rows="4" required></textarea></td>
@@ -40,12 +66,12 @@
             <tr>
                 <td>Gender:</td>
                 <td><input type="radio" name="gender" value="male" checked="checked">Male 
-                <input type="radio" name="gender" value="female">Female</td>
-               
-            </tr>
-            <tr>
-                <td>Hobby:</td>
-                <td><input type="checkbox" name="hobby" value="music" checked="checked">Listening Music
+                    <input type="radio" name="gender" value="female">Female</td>
+                    
+                </tr>
+                <tr>
+                    <td>Hobby:</td>
+                    <td><input type="checkbox" name="hobby" value="music" checked="checked">Listening Music
                     <input type="checkbox" name="hobby" value="cooking">Cooking
                     <input type="checkbox" name="hobby" value="reading" checked="checked">Reading book
                     <input type="checkbox" name="hobby" value="playing">Playing game 
@@ -62,17 +88,17 @@
                         <option name="city" value="Surat" selected>SURAT</option>
                         <option name="city" value="Gandhinagar">GANDHINAGAR</option>
                         <option name="city" value="Surendranagar">SURENDRANAGAR</option>
-
+                        
                     </select>
                 </td>
             </tr>
-
+            
             <tr>
                 <td>Resume:</td>
                 <td><input type="file" name="resume" ></td>
                 
             </tr>
-
+            
             <tr>
                 
                 <td colspan="2" align="center"><button type="submit" size="14px" value="Submit">Submit</button>
@@ -80,7 +106,12 @@
             </tr>
             
         </table>
-
+        
     </form>    
+    <img src="man.png" alt="narn" style="height:520px; flex:auto;">
+</div>
 </body>
+
+
+
 </html>
