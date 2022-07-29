@@ -286,11 +286,11 @@
         
 
 # # Write a Python program to find the highest 3 values in a dictionary 
-p={'a':32, 'b':33, 'c':75, 'd':54, 'e':42, 'f':97, 'g':43, 'h':44, 'i':65}
-c= p.values()
-c=sorted(list(p.values()), reverse=True)
-v=c[0:3]
-print(v)
+# p={'a':32, 'b':33, 'c':75, 'd':54, 'e':42, 'f':97, 'g':43, 'h':44, 'i':65}
+# c= p.values()
+# c=sorted(list(p.values()), reverse=True)
+# v=c[0:3]
+# print(v)
 
 
 # Write a Python program to combine values in python list of dictionaries. 
