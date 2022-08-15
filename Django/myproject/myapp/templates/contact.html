@@ -1,0 +1,44 @@
+{% extends 'header.html' %}
+{% block content %}
+<center>
+    <form name="contact_frm" method="post" action="{% url 'contact' %}">
+        <h1>Contact form</h1>
+        {% if msg %}
+        <H5 style="color:blue; font-family: bold;">{{msg}}</H5>
+        {% endif %}
+        {% csrf_token %}
+        <table >
+                    <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Ramarks:</td>
+                <td><textarea name="remarks" rows="4" cols="50"></textarea></td>
+            </tr>
+            
+          
+        
+            
+        </table>
+        <button class="btn btn-primary">Submit</button>
+        
+        </form>
+    </center>
+    <h1>Recent Contact</h1>
+    <hr>
+    {% for i in contacts %}
+   
+    Name: {{i.Fname}}<br>
+    Remarks: {{i.Ramarks}}
+        <hr>
+    {% endfor %}
+    {% endblock %}
