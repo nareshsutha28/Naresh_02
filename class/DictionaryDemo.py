@@ -2,7 +2,7 @@ d={1:"Vinit",2:"Amit",3:"Savan",4:"Dhruv",5:"Naresh",6:"Sonalisha",7:"Mayank",8:
 
 # print(d)
 # print(d[3])
-# print(d["Amit"])
+
 # d1=d.copy()
 # print(d1)
 # print(d.get(5))

@@ -9,13 +9,13 @@
 
 # class B(A):
 #     def put(self):
-#         super().put()
 #         print("This is value of B Class. ")
+#         super().put()
 
 # class C(B):
 #     def put(self):
-#         super().put()
 #         print("This is value of C Class. ")
+#         super().put()
 
 
 # s1=C()
@@ -54,7 +54,7 @@
 
 # class B:
 #     def put(self):
-#         super().put()
+#         # super().put()
 #         print("This is value of B Class. ")
 
 # class C(B, A):

@@ -62,10 +62,10 @@
 #     div= a/b
 #     c= a*b
 #     floor= a//b
-
-#     print(add, sub, div, c, sep=' ,' )
-#     print(add, sub, div, c, sep='\n')
+#     print(floor)
+    # print(add, sub, div, c, sep=' ,' )
+    # print(add, sub, div, c, sep='\n')
     
 # fun(42,343)
     
-# fun(37,75)    
+# fun(100,75)    

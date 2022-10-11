@@ -80,7 +80,7 @@ sd='naresh suthar'
 # string=str(input("Enter your string:"))
 # string="Indira Gandhi in 1974 applied in emergency of 78 Months when lead to on economic loss of 9 million." 
 # b=[]
-# # print(string.split())
+# print(string.split())
 # for i in string.split():
 #     if i.isdigit(): 
 #         b.append(int(i))
@@ -144,5 +144,5 @@ sd='naresh suthar'
 # print("total number of space: ", p)
 # # ..............
 
-print("Total number of words: ", len(s.split()))
+# print("Total number of words: ", len(s.split()))
 

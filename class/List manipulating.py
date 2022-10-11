@@ -25,7 +25,7 @@
 # print(max(l))
 # print(min(list1))
 # print(max(list1))
-
+# 
 # list2=(1,3,5,7,9)
 # a=list(list2)
 # print(a)
@@ -37,9 +37,9 @@
 # print(l)
 # .........
 
-# list1=[1,3,5,7]
+list1=[1,3,5,7]
 # x=4
-# list2=[5,8,7]
+list2=[5,8,7]
 # for i in list2:
 #     list1.append(i)
 # print(list1)
@@ -57,8 +57,8 @@
 
 # ..........
 
-# c=[2,7,5,7,6,3,6,2,"suthar","suthar",6,9,5,2,5,2,6,7,3,2,7,7,4]
-# print(c.count(2))
+c=[2,7,5,7,6,3,6,2,"suthar","suthar",6,9,5,2,5,2,6,7,3,2,7,7,4]
+# print(c.count('suthar'))
 # ...............
 
 # print(c.index("suthar"))
@@ -74,8 +74,11 @@
 # m=int(input())
 # n=int(input())
 # c=[]
+# p=set()
+# print(p)
 # a=str(input())
-# x=a.split()
+# print(a.split(','))
+
 # b=str(input())
 # y=b.split()
 # y.sort(reverse=True)
@@ -93,11 +96,11 @@
 
 # a= "2 6 8 2 3 9 7 5 2 3 2 3 6 7"
 # a=str(input("enter the array number:"))
-# x=a.split()
+# x=a.split(' ')
 # b=[]
 # for i in x: 
-#     if i not in b:
-#         b.append(i)
+    # if i not in b:
+        # b.append(i)
 # print(b)
 # .........
 
@@ -160,11 +163,11 @@
 #     print("Enter a", n, "number of list")
 
 
-# l1= ['Naresh', 'Deepak',1 , 23, 32.4, 0, True, False]
-# l2=[34, 4.6, 'Mahesh', 'Suthar']
-# l4=l1.copy()
+l1= ['Naresh', 'Deepak',1 , 23, 32.4, 0, True, False]
+l2=[34, 4.6, 'Mahesh', 'Suthar']
+l4=l1.copy()
+print(l4)
 # l4.pop()
-# print(l4)
 # print(l1)
 # print(l1.count(1))
 # print(l1.count(0))

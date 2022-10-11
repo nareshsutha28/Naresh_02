@@ -4,7 +4,6 @@ x = {
     'name': 'naresh suthar',
     'Name': 'dhruv dutt',
     'name': 'hello suthar'
-
 }
 # print(x['Name'])
 # print(x['Location'],x['name'])
